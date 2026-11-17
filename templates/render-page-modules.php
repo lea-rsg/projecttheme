@@ -78,12 +78,13 @@ while (have_rows('page_modules')) : the_row();
     case 'google_map':
       get_template_part('template-parts/flex/layout', 'google-map'); break;
 
+    case 'panel_image_content_desktop':
+      get_template_part('template-parts/flex/layout', 'panel-image-content-desktop'); break;
 
     case 'frame29':
       get_template_part('template-parts/flex/layout', 'frame29'); break;
 
-
-      case 'project_highlight':
+    case 'project_highlight':
       get_template_part('template-parts/flex/layout', 'project-highlight'); break;
   }
 
