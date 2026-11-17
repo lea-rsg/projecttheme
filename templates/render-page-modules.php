@@ -79,6 +79,10 @@ while (have_rows('page_modules')) : the_row();
       get_template_part('template-parts/flex/layout', 'google-map'); break;
 
 
+    case 'frame29':
+      get_template_part('template-parts/flex/layout', 'frame29'); break;
+
+
       case 'project_highlight':
       get_template_part('template-parts/flex/layout', 'project-highlight'); break;
   }
