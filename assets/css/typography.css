@@ -1,0 +1,49 @@
+/*
+ * Typography
+ */
+
+
+@font-face {
+  font-family:"Sprat";
+  font-style: "normal";
+  font-weight: 400;
+  src: url("../fonts/Sprat_Variable.ttf") format("true-type");
+}
+
+
+html,
+body {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--theme-font-body);
+}
+
+
+
+a,
+a:hover,
+a:focus,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+.intro-kicker {
+  letter-spacing: 0.08em;
+  opacity: 0.75;
+}
+
+.intro-title {
+  line-height: 1.1;
+}
+
+.intro-text {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}

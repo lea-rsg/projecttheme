@@ -1,0 +1,18 @@
+/*
+ * Constants
+ *
+ * Keep colors and reusable theme values here.
+ */
+:root {
+  --theme-color-primary: #E6CDB0;
+  --theme-color-secondary: #924316;
+  --theme-color-body: #FBF0D6;
+  --theme-transition: all 0.3s ease-in-out; 
+
+--theme-font-body: "raleway", sans-serif;
+--theme-font-heading: "p22-folk-art-cross", sans-serif;
+--theme-font-subtitle: "Sprat", sans-serif;
+
+
+
+}
