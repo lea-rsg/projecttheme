@@ -1237,7 +1237,7 @@
                             "type": "select",
                             "instructions": "",
                             "required": false,
-                            "conditional_logic": false,
+                            "conditional_logic": 0,
                             "wrapper": {
                                 "width": "",
                                 "class": "",
@@ -1997,6 +1997,164 @@
                     "acfe_flexible_settings": false,
                     "acfe_flexible_settings_size": false,
                     "acfe_flexible_modal_edit_size": false
+                },
+                "layout_werte_desktop": {
+                    "key": "layout_werte_desktop",
+                    "name": "werte_desktop",
+                    "label": "Werte Desktop",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_werte_desktop_values",
+                            "label": "Werte",
+                            "name": "values",
+                            "aria-label": "",
+                            "type": "repeater",
+                            "instructions": "Reihenfolge entspricht der Darstellung. Ein Icon folgt jeweils auf den Eintrag.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "acfe_repeater_stylised_button": 0,
+                            "layout": "row",
+                            "pagination": 0,
+                            "min": 0,
+                            "max": 0,
+                            "collapsed": "field_werte_desktop_label",
+                            "button_label": "Wert hinzufügen",
+                            "rows_per_page": 20,
+                            "sub_fields": [
+                                {
+                                    "key": "field_werte_desktop_label",
+                                    "label": "Bezeichnung",
+                                    "name": "label",
+                                    "aria-label": "",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 1,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "40",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "allow_in_bindings": 0,
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": ""
+                                },
+                                {
+                                    "key": "field_werte_desktop_style",
+                                    "label": "Schriftstil",
+                                    "name": "style",
+                                    "aria-label": "",
+                                    "type": "select",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "30",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "choices": {
+                                        "folk": "Folk (Heading)",
+                                        "subtitle": "Sprat (Subtitle)"
+                                    },
+                                    "default_value": "subtitle",
+                                    "return_format": "value",
+                                    "multiple": 0,
+                                    "allow_null": 0,
+                                    "ui": 0,
+                                    "ajax": 0,
+                                    "placeholder": "",
+                                    "create_options": 0,
+                                    "save_options": 0,
+                                    "allow_custom": 0,
+                                    "search_placeholder": ""
+                                },
+                                {
+                                    "key": "field_werte_desktop_icon",
+                                    "label": "Standard-Icon",
+                                    "name": "icon",
+                                    "aria-label": "",
+                                    "type": "select",
+                                    "instructions": "Optionales lokales Figma-Icon nach diesem Wert.",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "30",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "choices": {
+                                        "": "Kein Icon",
+                                        "yarn": "Yarn",
+                                        "thread": "Thread",
+                                        "needle": "Needle",
+                                        "stitch": "Stitch",
+                                        "sisterhood": "Sisterhood"
+                                    },
+                                    "default_value": "",
+                                    "return_format": "value",
+                                    "multiple": 0,
+                                    "allow_null": 1,
+                                    "ui": 0,
+                                    "ajax": 0,
+                                    "placeholder": "",
+                                    "create_options": 0,
+                                    "save_options": 0,
+                                    "allow_custom": 0,
+                                    "search_placeholder": ""
+                                },
+                                {
+                                    "key": "field_werte_desktop_icon_image",
+                                    "label": "Eigenes Icon",
+                                    "name": "icon_image",
+                                    "aria-label": "",
+                                    "type": "image",
+                                    "instructions": "Optional; überschreibt das Standard-Icon.",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "uploader": "",
+                                    "return_format": "id",
+                                    "library": "all",
+                                    "acfe_thumbnail": 0,
+                                    "min_width": "",
+                                    "min_height": "",
+                                    "min_size": "",
+                                    "max_width": "",
+                                    "max_height": "",
+                                    "max_size": "",
+                                    "mime_types": "",
+                                    "allow_in_bindings": 0,
+                                    "preview_size": "medium"
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": "",
+                    "acfe_flexible_category": [
+                        "Interaktive Elemente"
+                    ],
+                    "acfe_flexible_render_template": false,
+                    "acfe_flexible_render_style": false,
+                    "acfe_flexible_render_script": false,
+                    "acfe_flexible_thumbnail": false,
+                    "acfe_flexible_settings": false,
+                    "acfe_flexible_settings_size": false,
+                    "acfe_flexible_modal_edit_size": false
                 }
             },
             "min": "",
@@ -2038,5 +2196,5 @@
             "json"
         ]
     },
-    "modified": 1795453028
+    "modified": 1795462488
 }

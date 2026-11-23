@@ -448,3 +448,100 @@
     font-size: 18px;
   }
 }
+
+/*** Werte Desktop ***/
+
+.werte-desktop {
+  width: 100%;
+  max-width: 1440px;
+  margin-inline: auto;
+  padding-inline: 120px;
+}
+
+.werte-desktop__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  min-height: 42px;
+}
+
+.werte-desktop__label {
+  margin: 0;
+  color: var(--theme-color-secondary);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.werte-desktop__label--folk {
+  font-family: var(--theme-font-heading);
+  font-size: 43px;
+  line-height: 0.77;
+  letter-spacing: -0.03em;
+}
+
+.werte-desktop__label--subtitle {
+  font-family: var(--theme-font-subtitle);
+  font-size: 32px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.werte-desktop__icon {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 40px;
+}
+
+.werte-desktop__icon-image {
+  max-width: 64px;
+  max-height: 40px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+@media (max-width: 1199.98px) {
+  .werte-desktop {
+    padding-inline: 32px;
+  }
+
+  .werte-desktop__row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .werte-desktop__label--folk {
+    font-size: 36px;
+  }
+
+  .werte-desktop__label--subtitle {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .werte-desktop {
+    padding-inline: 16px;
+  }
+
+  .werte-desktop__row {
+    gap: 12px;
+  }
+
+  .werte-desktop__label--folk {
+    font-size: 30px;
+  }
+
+  .werte-desktop__label--subtitle {
+    font-size: 24px;
+  }
+
+  .werte-desktop__icon {
+    width: 48px;
+  }
+}
