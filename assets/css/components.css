@@ -549,7 +549,9 @@
 /*** Community overview ***/
 
 .community-overview {
-  width: 100%;
+  width: 100vw;
+  max-width: none;
+  margin-left: calc(50% - 50vw);
   min-height: 560px;
   padding: 24px 0 48px;
   display: flex;
