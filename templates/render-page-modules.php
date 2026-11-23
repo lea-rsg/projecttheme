@@ -89,6 +89,9 @@ while (have_rows('page_modules')) : the_row();
 
     case 'crafts':
       get_template_part('template-parts/flex/layout', 'crafts'); break;
+
+    case 'weekly_craft':
+      get_template_part('template-parts/flex/layout', 'weekly-craft'); break;
   }
 
   if (function_exists('section_close')) {
