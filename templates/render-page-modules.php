@@ -98,6 +98,9 @@ while (have_rows('page_modules')) : the_row();
 
     case 'community_overview':
       get_template_part('template-parts/flex/layout', 'community-overview'); break;
+
+    case 'hero_image':
+      get_template_part('template-parts/flex/layout', 'hero-image'); break;
   }
 
   if (function_exists('section_close')) {
