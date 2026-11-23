@@ -2723,6 +2723,54 @@
                     "acfe_flexible_settings": false,
                     "acfe_flexible_settings_size": false,
                     "acfe_flexible_modal_edit_size": false
+                },
+                "layout_picture_tab": {
+                    "key": "layout_picture_tab",
+                    "name": "picture_tab",
+                    "label": "Picture Tab",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_picture_tab_images",
+                            "label": "Bilder",
+                            "name": "images",
+                            "aria-label": "",
+                            "type": "gallery",
+                            "instructions": "Bis zu 16 Bilder. Wenn leer, werden die standardmäßigen Figma-Bilder verwendet.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "id",
+                            "library": "all",
+                            "min": "",
+                            "max": 16,
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": "",
+                            "insert": "append",
+                            "preview_size": "medium"
+                        }
+                    ],
+                    "min": "",
+                    "max": "",
+                    "acfe_flexible_category": [
+                        "Bilder"
+                    ],
+                    "acfe_flexible_render_template": false,
+                    "acfe_flexible_render_style": false,
+                    "acfe_flexible_render_script": false,
+                    "acfe_flexible_thumbnail": false,
+                    "acfe_flexible_settings": false,
+                    "acfe_flexible_settings_size": false,
+                    "acfe_flexible_modal_edit_size": false
                 }
             },
             "min": "",
@@ -2764,5 +2812,5 @@
             "json"
         ]
     },
-    "modified": 1795465920
+    "modified": 1795467040
 }

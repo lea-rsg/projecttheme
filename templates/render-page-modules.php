@@ -107,6 +107,9 @@ while (have_rows('page_modules')) : the_row();
 
     case 'upcoming_tab':
       get_template_part('template-parts/flex/layout', 'upcoming-tab'); break;
+
+    case 'picture_tab':
+      get_template_part('template-parts/flex/layout', 'picture-tab'); break;
   }
 
   if (function_exists('section_close')) {
