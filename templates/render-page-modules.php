@@ -101,6 +101,9 @@ while (have_rows('page_modules')) : the_row();
 
     case 'hero_image':
       get_template_part('template-parts/flex/layout', 'hero-image'); break;
+
+    case 'craft_detail':
+      get_template_part('template-parts/flex/layout', 'craft-detail'); break;
   }
 
   if (function_exists('section_close')) {
