@@ -95,6 +95,9 @@ while (have_rows('page_modules')) : the_row();
 
     case 'werte_desktop':
       get_template_part('template-parts/flex/layout', 'werte-desktop'); break;
+
+    case 'community_overview':
+      get_template_part('template-parts/flex/layout', 'community-overview'); break;
   }
 
   if (function_exists('section_close')) {
