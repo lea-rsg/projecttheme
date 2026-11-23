@@ -885,3 +885,139 @@
     border-radius: 20px;
   }
 }
+
+/*** Upcoming Tab ***/
+
+.upcoming-tab {
+  max-width: 1296px;
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: 198px 484px minmax(300px, 1fr);
+  align-items: start;
+  gap: 24px;
+  padding: 48px 64px 48px 24px;
+  color: var(--theme-color-secondary);
+}
+
+.upcoming-tab__date {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  white-space: nowrap;
+  color: var(--theme-color-secondary);
+}
+
+.upcoming-tab__day,
+.upcoming-tab__month,
+.upcoming-tab__year {
+  margin: 0;
+  font-family: var(--theme-font-subtitle);
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.upcoming-tab__year {
+  font-family: var(--theme-font-body);
+  font-weight: 700;
+}
+
+.upcoming-tab__image-wrap {
+  width: 484px;
+  height: 350px;
+  border: 5px solid var(--theme-color-secondary);
+  border-radius: 32px;
+  overflow: hidden;
+  background: #f3efe7;
+}
+
+.upcoming-tab__image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.upcoming-tab__content {
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.upcoming-tab__title,
+.upcoming-tab__location {
+  color: var(--theme-color-secondary);
+}
+
+.upcoming-tab__title {
+  margin: 0 0 8px;
+  font-family: var(--theme-font-subtitle);
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.upcoming-tab__location {
+  margin: -28px 0 0;
+  font-family: var(--theme-font-body);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.upcoming-tab__text {
+  margin: 0;
+  color: #303030;
+  font-family: var(--theme-font-body);
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+@media (max-width: 1199.98px) {
+  .upcoming-tab {
+    grid-template-columns: 150px 390px minmax(280px, 1fr);
+  }
+
+  .upcoming-tab__image-wrap {
+    width: 390px;
+    height: 310px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .upcoming-tab {
+    grid-template-columns: 120px minmax(0, 1fr);
+    padding: 32px 24px;
+  }
+
+  .upcoming-tab__image-wrap {
+    width: 100%;
+    height: 320px;
+  }
+
+  .upcoming-tab__content {
+    grid-column: 2;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .upcoming-tab {
+    grid-template-columns: 1fr;
+    padding: 24px 16px;
+  }
+
+  .upcoming-tab__date {
+    align-items: flex-start;
+  }
+
+  .upcoming-tab__image-wrap {
+    height: 260px;
+    border-width: 3px;
+    border-radius: 20px;
+  }
+
+  .upcoming-tab__content {
+    grid-column: auto;
+  }
+}

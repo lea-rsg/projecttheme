@@ -104,6 +104,9 @@ while (have_rows('page_modules')) : the_row();
 
     case 'craft_detail':
       get_template_part('template-parts/flex/layout', 'craft-detail'); break;
+
+    case 'upcoming_tab':
+      get_template_part('template-parts/flex/layout', 'upcoming-tab'); break;
   }
 
   if (function_exists('section_close')) {
