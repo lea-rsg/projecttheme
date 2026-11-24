@@ -1887,6 +1887,141 @@
                     "acfe_flexible_settings_size": false,
                     "acfe_flexible_modal_edit_size": false
                 },
+                "layout_weekly_craft_featured": {
+                    "key": "layout_weekly_craft_featured",
+                    "name": "weekly_craft_featured",
+                    "label": "Weekly Craft",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_weekly_craft_featured_title",
+                            "label": "Titel",
+                            "name": "title",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Want to be featured?",
+                            "maxlength": "",
+                            "allow_in_bindings": 0,
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_weekly_craft_featured_text",
+                            "label": "Text",
+                            "name": "text",
+                            "aria-label": "",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "We look forward to seeing your own creations! DM us your crafts on Instagram to inspire other crafters!",
+                            "maxlength": "",
+                            "rows": 4,
+                            "placeholder": "",
+                            "new_lines": "",
+                            "allow_in_bindings": 0
+                        },
+                        {
+                            "key": "field_weekly_craft_featured_cta",
+                            "label": "Button Link",
+                            "name": "cta",
+                            "aria-label": "",
+                            "type": "link",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "allow_in_bindings": 0
+                        },
+                        {
+                            "key": "field_weekly_craft_featured_background_image",
+                            "label": "Hintergrundform (optional)",
+                            "name": "background_image",
+                            "aria-label": "",
+                            "type": "image",
+                            "instructions": "Optional. Wenn leer, wird die Standardform aus dem Theme verwendet.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "25",
+                                "class": "",
+                                "id": ""
+                            },
+                            "uploader": "",
+                            "return_format": "id",
+                            "library": "all",
+                            "acfe_thumbnail": 0,
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": "",
+                            "allow_in_bindings": 0,
+                            "preview_size": "medium"
+                        },
+                        {
+                            "key": "field_weekly_craft_featured_icon_image",
+                            "label": "Button Icon (optional)",
+                            "name": "icon_image",
+                            "aria-label": "",
+                            "type": "image",
+                            "instructions": "Optional. Wenn leer, wird das Standard-Instagram-Icon aus dem Theme verwendet.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "25",
+                                "class": "",
+                                "id": ""
+                            },
+                            "uploader": "",
+                            "return_format": "id",
+                            "library": "all",
+                            "acfe_thumbnail": 0,
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": "",
+                            "allow_in_bindings": 0,
+                            "preview_size": "thumbnail"
+                        }
+                    ],
+                    "min": "",
+                    "max": "",
+                    "acfe_flexible_category": [
+                        "Interaktive Elemente"
+                    ],
+                    "acfe_flexible_render_template": false,
+                    "acfe_flexible_render_style": false,
+                    "acfe_flexible_render_script": false,
+                    "acfe_flexible_thumbnail": false,
+                    "acfe_flexible_settings": false,
+                    "acfe_flexible_settings_size": false,
+                    "acfe_flexible_modal_edit_size": false
+                },
                 "layout_panel_image_content_desktop": {
                     "key": "layout_panel_image_content_desktop",
                     "name": "panel_image_content_desktop",
@@ -2812,5 +2947,5 @@
             "json"
         ]
     },
-    "modified": 1795467040
+    "modified": 1795522988
 }

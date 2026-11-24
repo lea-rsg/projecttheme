@@ -449,6 +449,110 @@
   }
 }
 
+/*** Weekly Craft (Featured) ***/
+
+.weekly-craft-featured {
+  width: 100vw;
+  max-width: none;
+  margin-left: calc(50% - 50vw);
+  min-height: 760px;
+  padding: 80px 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 47px;
+  text-align: center;
+  background-image: var(--weekly-craft-featured-bg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.weekly-craft-featured__title {
+  margin: 0;
+  font-family: var(--theme-font-heading);
+  font-size: 72px;
+  line-height: 0.77;
+  letter-spacing: -0.03em;
+  color: #f3f3f3;
+}
+
+.weekly-craft-featured__text {
+  margin: 0;
+  max-width: 826px;
+  font-family: var(--theme-font-subtitle);
+  font-size: 48px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: #f3f3f3;
+}
+
+.weekly-craft-featured__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-width: 127px;
+  min-height: 40px;
+  padding: 12px;
+  border: 1px solid var(--theme-color-secondary);
+  border-radius: 23px;
+  background: var(--theme-color-body);
+  color: var(--theme-color-secondary);
+  font-family: var(--theme-font-body);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+  text-decoration: none;
+  transition: var(--theme-transition);
+}
+
+.weekly-craft-featured__button-icon {
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
+.weekly-craft-featured__button:hover,
+.weekly-craft-featured__button:focus-visible {
+  background: #fff;
+  color: var(--theme-color-secondary);
+}
+
+@media (max-width: 991.98px) {
+  .weekly-craft-featured {
+    min-height: 580px;
+    padding: 56px 32px;
+    gap: 32px;
+  }
+
+  .weekly-craft-featured__title {
+    font-size: 52px;
+  }
+
+  .weekly-craft-featured__text {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .weekly-craft-featured {
+    min-height: 420px;
+    padding: 32px 20px;
+    gap: 24px;
+  }
+
+  .weekly-craft-featured__title {
+    font-size: 34px;
+    line-height: 0.9;
+  }
+
+  .weekly-craft-featured__text {
+    font-size: 22px;
+  }
+}
+
 /*** Werte Desktop ***/
 
 .werte-desktop {

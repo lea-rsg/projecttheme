@@ -93,6 +93,9 @@ while (have_rows('page_modules')) : the_row();
     case 'weekly_craft':
       get_template_part('template-parts/flex/layout', 'weekly-craft'); break;
 
+    case 'weekly_craft_featured':
+      get_template_part('template-parts/flex/layout', 'weekly-craft-featured'); break;
+
     case 'werte_desktop':
       get_template_part('template-parts/flex/layout', 'werte-desktop'); break;
 
